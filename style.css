@@ -1,0 +1,162 @@
+/*
+PHP Login and other info showing
+
+if (isset($_GET['user_id']) && $_GET['user_id'] == $_SESSION['id']) {
+		echo "";
+	}else if (isset($_GET['user_id']) && $_SESSION['up_id'] == 2 && $_GET['user_id'] != $_SESSION['id']) {
+		$user_id = $_GET['user_id'];
+		echo "";
+	}else if(!isset($_GET['user_id'])){
+		echo "";
+	}else{
+	echo "";
+	}
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar .nav-item a{
+	color: #fff!important;
+}
+
+.tw150{
+	width: 150px;
+}
+
+.tw200{
+	width: 200px;
+}
+.tab-content{
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.post-author{
+	font-size: 0.9em;
+	padding: 0;
+	margin: 0;
+}
+.post-time{
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	clear: both;
+	margin-right: 10px;
+}
+.author-group{
+	font-size: 12px;
+	color: green;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 0 5px;
+}
+.post-description{
+	clear:both;
+	text-align: justify;
+}
+.overflow-scroll{
+	overflow: scroll;
+	height: 70vh;
+}
+.tab-pane{
+	overflow: scroll;
+	height: 70vh;
+}
+.m-auto{
+	text-align: center;
+	display:block;
+}
+.user-position{
+	font-size: .9em;
+	margin: 0 0 0 0;
+}
+.user-team{
+	font-size: .95em;
+	margin: 0 0 0 0;
+}
+.user-name{
+	margin: 10px 0 0 0;
+}
+.user-name,.user-position,.user-team{
+	padding-left: 5px;
+}
+.user-about{
+	margin: 5px 0px 0 0px;
+	padding: 5px 10px 0 10px;
+	font-style: italic;
+	text-align: justify;
+}
+.user-about b{
+	display: block;
+	border-bottom: 1px solid #ddd;
+}
+.reg-mandatory{
+	color: red;
+}
+.form-check{
+	padding-left:0;
+}
+.post-details{
+	display: block;
+	border-bottom: 1px solid #ddd;
+}
+.single-post-time{
+	font-size: .9em;
+}
+.post-img{
+	display: block;
+	float: left;
+}
+.post-img img{
+	max-height: 300px;
+}
+.article_wrap{
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.sidebar_right{
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.sidebar_link{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 0;
+	margin-top: 0;
+}
+.sidebar_link a{
+	text-decoration: none;
+	color: green;
+	padding-top: 8px;
+	display: block;
+}
+.sidebar_link a:hover{
+	color: blue;
+	background-color: #ddd;
+}
+.hr{
+	border-bottom: 1px solid #ddd;
+}
+.comment_img{
+	float: left;
+}
+.comment_name_text{
+	float: left;
+	display: block;
+	background-color: #eee;
+	min-height: 40px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+}
+.comment_time{
+	font-weight: bold;
+	color: #aaa;
+	font-size: .9em;
+}
